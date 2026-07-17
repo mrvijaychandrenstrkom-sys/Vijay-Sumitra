@@ -1,2 +1,0 @@
-# Vijay-Sumitra
-no
