@@ -55,3 +55,7 @@ body{
     font-size:18px;
     cursor:pointer;
 }
+
+#mainContent{
+    display:none;
+}
