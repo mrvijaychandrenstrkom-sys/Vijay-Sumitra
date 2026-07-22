@@ -112,3 +112,22 @@ body{
     font-weight:bold;
     cursor:pointer;
 }
+
+#hero{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    background:#0D0D0D;
+    color:white;
+}
+
+.hero-content{
+    width:100%;
+}
+
+.hero-content h1{
+    color:#D4AF37;
+    font-size:60px;
+}
