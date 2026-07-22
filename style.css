@@ -59,3 +59,56 @@ body{
 #mainContent{
     display:none;
 }
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:arial, sans-serif;
+    background:#0d0d0d;
+    color:#ffffff;
+}
+
+#cover{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:20px;
+}
+
+.cover-content h3{
+    coloro:#D4AF37;
+    letter-spacing:3px;
+    margin-buttom:20px;
+}
+
+.cover-content h1{
+    color:#D4AF37;
+    font-size:52px;
+    margin:10px 0;
+}
+
+.cover-content p{
+    font-size:32px;
+    margin:10px 0;
+}
+
+.cover-content h2{
+    margin:25px 0;
+}
+
+.cover-content buttom{
+    padding:16px 40px;
+    border:none;
+    border-radius:50px;
+    background:D4AF37;
+    color:#000;
+    font-size:18px;
+    font-weight:bold;
+    cursor:pointer;
+}
