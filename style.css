@@ -152,3 +152,36 @@ body{
     margin-top:20px;
 }
 
+#cauple{
+    min-height:100vh;
+    background:#F8F5F0;
+    padding:80px 20px;
+    text-align:center;
+}
+
+#couple h2{
+    font-size:40px;
+    color:#D4AF37;    
+    margin-bottom:50px;
+}
+
+.couple-card{
+    max-width:500px;
+    margin:30px auto;
+    padding:30px;
+    background:white;
+    border-radius:20px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.1);
+}
+
+.couple-card h3{
+    color:#D4AF37;
+    font-size:32px;
+    margin-buttom:15px;
+}
+
+.couple-card p{
+    color:#666;
+    font-size:18px;
+    line-height:1.8;
+}
