@@ -36,6 +36,8 @@ body{
     margin:10px 0;
 }
 
+
+
 #cover p{
     font-size:30px;
     margin:10px 0;
@@ -184,4 +186,55 @@ body{
     color:#666;
     font-size:18px;
     line-height:1.8;
+}
+
+#countdown{
+    min-height:100vh;
+    background:#0d0d0d;
+    color:white;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:30px;
+}
+
+#countdown h2{
+    color:#D4AF37;
+    font-size:40px
+    margin-buttom:10px;
+}
+
+#countdown h3{
+    matgin-buttom:40px;
+}
+
+.countdown-container{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:20px;
+}
+
+.time-box{
+    width:110px;
+    height:110px;
+    background:#1a1a1a;
+    border:2px solid #D4AF37;
+    border-radius:15px;
+    dipslay:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+.time-box span{
+    font-size:30px;
+    font-weight:bold;
+    color:#D4AF37;
+}
+
+.time-box p{
+    marign-top:10px;
 }
