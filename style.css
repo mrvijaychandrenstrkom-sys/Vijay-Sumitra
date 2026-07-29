@@ -124,6 +124,7 @@ body{
 }
 
 .hero-content{
+    max-width:700px;
     width:100%;
 }
 
@@ -131,3 +132,23 @@ body{
     color:#D4AF37;
     font-size:60px;
 }
+
+.hero-content h2{
+    color:#D4AF37;
+    font-size:28px;
+    letter-spacing:3px;
+    margin-buttom:3px;
+}
+
+.hero-content p{
+    color:white;
+    font-size:36px;
+    margin:15px 0;
+}
+
+.hero-content h3{
+    color:white;
+    font-size:24px;
+    margin-top:20px;
+}
+
