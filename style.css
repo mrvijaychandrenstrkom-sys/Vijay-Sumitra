@@ -223,6 +223,7 @@ body{
     background:#1a1a1a;
     border:2px solid #D4AF37;
     border-radius:20px;
+    padding:20px;
 
     dipslay:flex;
     flex-direction:column;
@@ -236,10 +237,8 @@ body{
     font-szie:30px;
     font-weight:bold;
     color:#D4AF37;
-    text-align:center;
 }
 
 .time-box p{
     color:#fff;
-    text-align:center;
 }
