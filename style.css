@@ -217,7 +217,17 @@ body{
     gap:20px;
 }
 
-
+.time-box{
+    width:110px;
+    height:110px;
+    background:#1a1a1a;
+    border:2px solid #D4AF37;
+    border-radius:15px;
+    dipslay:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
 
 .time-box span{
     display:block;
