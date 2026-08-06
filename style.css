@@ -236,8 +236,10 @@ body{
     font-szie:30px;
     font-weight:bold;
     color:#D4AF37;
+    margin:0;
 }
 
 .time-box p{
     color:#fff;
+    margin:0;
 }
