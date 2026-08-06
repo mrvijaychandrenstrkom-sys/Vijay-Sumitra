@@ -218,11 +218,11 @@ body{
 }
 
 .time-box{
-    width:100px;
-    height:100px;
+    width:120px;
+    height:120px;
     background:#1a1a1a;
     border:2px solid #D4AF37;
-    border-radius:15px;
+    border-radius:20px;
     dipslay:flex;
     flex-direction:column;
     justify-content:center;
@@ -234,7 +234,8 @@ body{
     font-szie:40px;
     font-weight:bold;
     color:#D4AF37;
-    margin-bottom:10px;
+    margin:0;
+    line-height:1;
 }
 
 .time-box p{
