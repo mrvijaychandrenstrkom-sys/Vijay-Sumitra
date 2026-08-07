@@ -8,22 +8,21 @@
 
 /* Body */
 
-body{
-    font-family:Arial, sans-serif;
-    background:#f8f5ef;
-}
 
 /* Cover */
 
 #cover{
+    position:relative;
+    width:100%;
     height:100vh;
+
     display:flex;
-    flex-direction:column;
     justify-content:center;
     align-items:center;
-    text-align:center;
-    padding:20px;
+
+    overflow:hidden;
 }
+
 
 #cover h3{
     font-size:22px;
@@ -39,12 +38,12 @@ body{
 
 
 #cover p{
-    font-size:30px;
+    font-size:50px;
     margin:10px 0;
 }
 
 #cover h2{
-    font-size:24px;
+    font-size:50px;
     margin:20px 0;
 }
 
@@ -62,11 +61,6 @@ body{
     display:none;
 }
 
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-}
 
 body{
     font-family:arial, sans-serif;
@@ -78,7 +72,7 @@ body{
 .cover-content h3{
     color:#D4AF37;
     letter-spacing:3px;
-    margin-buttom:20px;
+    margin-bottom:20px;
 }
 
 .cover-content h1{
@@ -97,14 +91,7 @@ body{
 }
 
 .cover-content button{
-    padding:16px 40px;
-    border:none;
-    border-radius:50px;
-    background:#D4AF37;
-    color:#000;
-    font-size:18px;
-    font-weight:bold;
-    cursor:pointer;
+    margin-top:2opx;
 }
 
 #hero{
@@ -131,7 +118,7 @@ body{
     color:#D4AF37;
     font-size:28px;
     letter-spacing:3px;
-    margin-buttom:3px;
+    margin-bottom:3px;
 }
 
 .hero-content p{
@@ -171,7 +158,7 @@ body{
 .couple-card h3{
     color:#D4AF37;
     font-size:32px;
-    margin-buttom:15px;
+    margin-bottom:15px;
 }
 
 .couple-card p{
@@ -193,13 +180,11 @@ body{
 }
 
 #countdown h2{
-    color:#D4AF37;
     font-size:40px
-    margin-buttom:10px;
 }
 
 #countdown h3{
-    matgin-buttom:40px;
+    margin-bottom:40px;
 }
 
 .countdown-container{
@@ -238,12 +223,6 @@ body{
     color:#fff;
 }
 
-#cover{
-    position:relative;
-    width:100%;
-    height:100vh;
-    overflow:hidden;
-}
 
 .cover-image{
     position:absolute;
@@ -254,8 +233,9 @@ body{
     width:100%;
     height:100%;
     object-fit:cover;
-}
 
+    transform:scale(1.08);
+}
 .cover-overlay{
     position:absolute;
     inset:0;
@@ -277,4 +257,5 @@ body{
     color:white;
 
     padding:20px;
+    gap:15px;
 }
