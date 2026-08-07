@@ -43,18 +43,28 @@
 }
 
 #cover h2{
-    font-size:50px;
-    margin:20px 0;
+    font-size:26px;
+    font-weight:400;
 }
 
 #cover button{
     padding:15px 35px;
     border:none;
     border-radius:50px;
-    background:black;
-    color:white;
+
+    background:#D4AF37;
+    color:#000;
+
     font-size:18px;
+    font-weight:bold;
     cursor:pointer;
+
+    transition:.3s;
+}
+
+#cover button:hover{
+    transform:scale(1.05);
+    box-shadow:0 0 20px rgba(212,175,55,.5);
 }
 
 #mainContent{
@@ -77,12 +87,12 @@ body{
 
 .cover-content h1{
     color:#D4AF37;
-    font-size:52px;
+    font-size:60px;
     margin:10px 0;
 }
 
 .cover-content p{
-    font-size:32px;
+    font-size:40px;
     margin:10px 0;
 }
 
@@ -91,7 +101,7 @@ body{
 }
 
 .cover-content button{
-    margin-top:2opx;
+    margin-top:20px;
 }
 
 #hero{
@@ -180,7 +190,7 @@ body{
 }
 
 #countdown h2{
-    font-size:40px
+    font-size:40px;
 }
 
 #countdown h3{
