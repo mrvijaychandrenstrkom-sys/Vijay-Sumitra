@@ -218,8 +218,8 @@ body{
 }
 
 .time-box{
-    width:60px;
-    height:80px;
+    width:120px;
+    height:120px;
     background:#1a1a1a;
     border:2px solid #D4AF37;
     border-radius:20px;
@@ -231,15 +231,17 @@ body{
     align-items:center;
 
     text-align:center;
-    padding:20px;
+    
 }
 
 .time-box span{
-    font-szie:20px;
+    font-szie:40px;
     font-weight:bold;
     color:#D4AF37;
+    margin:0;
 }
 
 .time-box p{
+    margin:5px 0 0 0;
     color:#fff;
 }
