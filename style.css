@@ -74,17 +74,9 @@ body{
     color:#ffffff;
 }
 
-#cover{
-    min-height:100vh;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    text-align:center;
-    padding:20px;
-}
 
 .cover-content h3{
-    coloro:#D4AF37;
+    color:#D4AF37;
     letter-spacing:3px;
     margin-buttom:20px;
 }
@@ -104,11 +96,11 @@ body{
     margin:25px 0;
 }
 
-.cover-content buttom{
+.cover-content button{
     padding:16px 40px;
     border:none;
     border-radius:50px;
-    background:D4AF37;
+    background:#D4AF37;
     color:#000;
     font-size:18px;
     font-weight:bold;
